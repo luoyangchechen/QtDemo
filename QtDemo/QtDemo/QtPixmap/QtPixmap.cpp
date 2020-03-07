@@ -1,0 +1,19 @@
+#include "QtPixmap.h"
+#include <QPainter>
+
+QtPixmap::QtPixmap(QWidget *parent)
+	: QMainWindow(parent)
+{
+	ui.setupUi(this);
+
+	//»æÍ¼Éè±¸
+	QPixmap pixmpa(400,711);
+	QPainter p(&pixmpa);
+	//Ìî³ä°×É«
+	p.fillRect(0, 0, 400, 711, QBrush(Qt::white));
+	p.drawPixmap(0,0,400,711,QPixmap(":/Image/lufei.jpg"));
+	
+
+	//±£´æÍ¼Æ¬
+	pixmpa.save("./pixmap.png");
+}

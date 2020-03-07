@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QComboboxEx", "QtDemo\QComb
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QDlgPrint", "QtDemo\QDlgPrint\QDlgPrint.vcxproj", "{C60055A5-B2E3-40E5-8C70-7933559DE731}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QtPixmap", "QtDemo\QtPixmap\QtPixmap.vcxproj", "{3C67C5D7-9F90-41DC-AB42-3746E9EC77F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -21,6 +23,10 @@ Global
 		{C60055A5-B2E3-40E5-8C70-7933559DE731}.Debug|x86.Build.0 = Debug|Win32
 		{C60055A5-B2E3-40E5-8C70-7933559DE731}.Release|x86.ActiveCfg = Release|Win32
 		{C60055A5-B2E3-40E5-8C70-7933559DE731}.Release|x86.Build.0 = Release|Win32
+		{3C67C5D7-9F90-41DC-AB42-3746E9EC77F0}.Debug|x86.ActiveCfg = Debug|Win32
+		{3C67C5D7-9F90-41DC-AB42-3746E9EC77F0}.Debug|x86.Build.0 = Debug|Win32
+		{3C67C5D7-9F90-41DC-AB42-3746E9EC77F0}.Release|x86.ActiveCfg = Release|Win32
+		{3C67C5D7-9F90-41DC-AB42-3746E9EC77F0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

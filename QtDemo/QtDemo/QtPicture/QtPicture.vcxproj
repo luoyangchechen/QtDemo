@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3C67C5D7-9F90-41DC-AB42-3746E9EC77F0}</ProjectGuid>
+    <ProjectGuid>{68D16B2E-5D38-4E54-92AD-A7E297DC9CD2}</ProjectGuid>
     <Keyword>QtVS_v302</Keyword>
     <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
@@ -87,16 +87,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="QtPixmap.cpp" />
+    <ClCompile Include="QtPicture.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="QtPixmap.h" />
+    <QtMoc Include="QtPicture.h" />
   </ItemGroup>
   <ItemGroup>
-    <QtUic Include="QtPixmap.ui" />
+    <QtUic Include="QtPicture.ui" />
   </ItemGroup>
   <ItemGroup>
-    <QtRcc Include="QtPixmap.qrc" />
+    <QtRcc Include="QtPicture.qrc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
